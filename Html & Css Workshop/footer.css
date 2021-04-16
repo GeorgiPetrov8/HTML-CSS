@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 12%;
+    border-top: 6px solid #222222;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-weight: lighter;
+}
+
+footer h5 {
+    color: rgb(150, 150, 150);
+    flex-basis: 100%;
+    font-size: 20px;
+    font-weight: lighter;       
+}
+
+
+.footer-column ul {
+    padding-left: 0px;
+}
+
+@media all and (max-width: 900px) {
+    .footer-column {
+        width: 120px;
+    }
+
+    .footer-column ul {
+        margin: 0px;
+    }
+}
+
+.footer-column ul li {
+    margin: 10px 0;
+}

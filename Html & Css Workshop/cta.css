@@ -1,0 +1,43 @@
+.cta-content-summary {
+    font-family: 14px;
+    color: white;
+}
+
+input[type="email"] {
+    padding: 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border: none;
+    min-width: 330px;
+}
+
+@media all and (max-width: 900px) {
+    input[type="email"] {
+        border-radius: 2px;
+    }
+}
+
+.content-cta-btn {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+@media all and (max-width: 900px) {
+    .content-cta-btn {
+        margin: 20px auto;
+    }
+}
+
+.content-cta-btn::after {
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f054';
+    position: relative;
+    top: 1px;
+    left: 2px;
+}

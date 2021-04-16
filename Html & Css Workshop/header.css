@@ -1,0 +1,30 @@
+header {
+    background: radial-gradient(circle, rgba(255,249,249,0) 0%, rgba(111,108,108,.2) 10%, rgba(0,0,0,1) 100%), url('images/netflix-background-header.jpg') no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+@media all and (max-width: 900px) {
+    header {
+        min-height: 600px;
+    }
+}
+
+.header-content-title {
+    font-size: 50px;
+    width: 45%;
+    margin: 100px auto 0 auto;
+}
+
+@media all and (max-width: 900px) {
+    .header-content-title {
+        font-size: 25px;
+        width: 90%;
+    }
+}
+
+

@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.image-wrapper {
+    max-width: 120px;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.sign-in-btn {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 15px;
+}
+
+
+
