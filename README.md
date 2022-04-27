@@ -1,2 +1,2 @@
 # HTML-CSS
-HTML and CSS Netflix demo code
+Netflix clone with html and css without functionality
